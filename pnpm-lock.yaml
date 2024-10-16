@@ -67,7 +67,7 @@ importers:
         version: 5.1.0
       '@hono/node-server':
         specifier: 1.13.2
-        version: 1.13.2(hono@4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e))
+        version: 1.13.2(hono@4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e))
       '@hookform/resolvers':
         specifier: 3.9.0
         version: 3.9.0(react-hook-form@7.53.0(react@18.3.1))
@@ -159,8 +159,8 @@ importers:
         specifier: 15.7.4
         version: 15.7.4
       hono:
-        specifier: 4.6.3
-        version: 4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
+        specifier: 4.6.5
+        version: 4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
       lint-staged:
         specifier: 15.2.10
         version: 15.2.10
@@ -313,8 +313,8 @@ importers:
         specifier: 3.2.0
         version: 3.2.0
       hono:
-        specifier: 4.6.3
-        version: 4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
+        specifier: 4.6.5
+        version: 4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
 
   apps/renderer:
     dependencies:
@@ -663,7 +663,7 @@ importers:
         version: 1.0.1(@types/node@22.7.5)
       '@hono/node-server':
         specifier: ^1.13.2
-        version: 1.13.2(hono@4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e))
+        version: 1.13.2(hono@4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e))
       '@t3-oss/env-core':
         specifier: ^0.11.1
         version: 0.11.1(typescript@5.6.3)(zod@3.23.8)
@@ -674,8 +674,8 @@ importers:
         specifier: ^33.0.0
         version: 33.0.0
       hono:
-        specifier: ^4.6.3
-        version: 4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
+        specifier: ^4.6.5
+        version: 4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -5748,10 +5748,6 @@ packages:
     resolution: {integrity: sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA==}
     engines: {node: '>=0.10.0'}
 
-  hono@4.6.3:
-    resolution: {integrity: sha512-0LeEuBNFeSHGqZ9sNVVgZjB1V5fmhkBSB0hZrpqStSMLOWgfLy0dHOvrjbJh0H2khsjet6rbHfWTHY0kpYThKQ==}
-    engines: {node: '>=16.9.0'}
-
   hono@4.6.5:
     resolution: {integrity: sha512-qsmN3V5fgtwdKARGLgwwHvcdLKursMd+YOt69eGpl1dUCJb8mCd7hZfyZnBYjxCegBG7qkJRQRUy2oO25yHcyQ==}
     engines: {node: '>=16.9.0'}
@@ -10534,10 +10530,6 @@ snapshots:
       hono: 4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
       react: 18.3.1
 
-  '@hono/node-server@1.13.2(hono@4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e))':
-    dependencies:
-      hono: 4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
-
   '@hono/node-server@1.13.2(hono@4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e))':
     dependencies:
       hono: 4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
@@ -15283,8 +15275,6 @@ snapshots:
   homedir-polyfill@1.0.3:
     dependencies:
       parse-passwd: 1.0.0
-
-  hono@4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e): {}
 
   hono@4.6.5(patch_hash=iej2g43ojhll5opwbnvyorjq4e): {}
 
