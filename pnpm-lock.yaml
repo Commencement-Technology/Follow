@@ -156,8 +156,8 @@ importers:
         specifier: 6.0.0
         version: 6.0.0
       happy-dom:
-        specifier: 15.7.4
-        version: 15.7.4
+        specifier: 15.10.1
+        version: 15.10.1
       hono:
         specifier: 4.6.3
         version: 4.6.3(patch_hash=iej2g43ojhll5opwbnvyorjq4e)
@@ -217,7 +217,7 @@ importers:
         version: 5.0.1(typescript@5.6.3)(vite@5.4.9(@types/node@22.7.5)(terser@5.34.1))
       vitest:
         specifier: 2.0.5
-        version: 2.0.5(@types/node@22.7.5)(happy-dom@15.7.4)(terser@5.34.1)
+        version: 2.0.5(@types/node@22.7.5)(happy-dom@15.10.1)(terser@5.34.1)
 
   apps/main:
     dependencies:
@@ -4030,6 +4030,7 @@ packages:
 
   boolean@3.2.0:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   bottleneck@2.19.5:
     resolution: {integrity: sha512-VHiNCbI1lKdl44tGrhNfU3lup0Tj/ZBMJB5/2ZbNXRCPuRCO7ed2mgcK4r17y+KB2EfuYuRaVlwNbAeaWGSpbw==}
@@ -5643,8 +5644,8 @@ packages:
     engines: {node: '>=0.4.7'}
     hasBin: true
 
-  happy-dom@15.7.4:
-    resolution: {integrity: sha512-r1vadDYGMtsHAAsqhDuk4IpPvr6N8MGKy5ntBo7tSdim+pWDxus2PNqOcOt8LuDZ4t3KJHE+gCuzupcx/GKnyQ==}
+  happy-dom@15.10.1:
+    resolution: {integrity: sha512-FuGnj/qIB4QnBL6fWmD7Wnh6STxevLgOVWB6+nopDGgWG1+t9CXkNB2ldZ+iqwD2UKxD2D0SU8el8A6AX6Q1+g==}
     engines: {node: '>=18.0.0'}
 
   has-flag@3.0.0:
@@ -15087,7 +15088,7 @@ snapshots:
     optionalDependencies:
       uglify-js: 3.19.3
 
-  happy-dom@15.7.4:
+  happy-dom@15.10.1:
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
@@ -18511,7 +18512,7 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.34.1
 
-  vitest@2.0.5(@types/node@22.7.5)(happy-dom@15.7.4)(terser@5.34.1):
+  vitest@2.0.5(@types/node@22.7.5)(happy-dom@15.10.1)(terser@5.34.1):
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@vitest/expect': 2.0.5
@@ -18534,7 +18535,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.7.5
-      happy-dom: 15.7.4
+      happy-dom: 15.10.1
     transitivePeerDependencies:
       - less
       - lightningcss
