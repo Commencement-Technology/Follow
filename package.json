@@ -79,7 +79,7 @@
     "eslint": "^9.12.0",
     "eslint-config-hyoban": "^3.1.10",
     "fake-indexeddb": "6.0.0",
-    "happy-dom": "15.7.4",
+    "happy-dom": "15.10.2",
     "hono": "4.6.3",
     "lint-staged": "15.2.10",
     "nbump": "2.0.7",
